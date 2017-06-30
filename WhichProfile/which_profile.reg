@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL]
+@="WhichProfile URL"
+"FriendlyTypeName"="WhichProfile URL"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell\open\command]
+@="\"D:\\git_slow\\which_profile\\WhichProfile\\bin\\Debug\\WhichProfile.exe\" \"%1\""
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\Capabilities]
+"ApplicationDescription"="Directs links to correct Chrome profile."
+"ApplicationName"="WhichProfile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\Capabilities\URLAssociations]
+"http"="WhichProfileURL"
+"https"="WhichProfileURL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell\open\command]
+@="\"D:\\git_slow\\which_profile\\WhichProfile\\bin\\Debug\\WhichProfile.exe\""

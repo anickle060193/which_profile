@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell\open]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WhichProfileURL\shell\open\command]
+
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\Capabilities]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\Capabilities\URLAssociations]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell\open]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\WhichProfile\shell\open\command]
+
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\WhichProfile.exe]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\WhichProfile.exe\shell]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\WhichProfile.exe\shell\open]
+;[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\WhichProfile.exe\shell\open\command]

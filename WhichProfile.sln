@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichProfile", "WhichProfile\WhichProfile.csproj", "{46A6740F-B2BA-4B3A-A993-2D1E5E9D3D17}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WhichProfile Setup", "WhichProfile Setup\WhichProfile Setup.vdproj", "{DE3A3E53-A1DD-4A18-8291-37A5793D38DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A6740F-B2BA-4B3A-A993-2D1E5E9D3D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A6740F-B2BA-4B3A-A993-2D1E5E9D3D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A6740F-B2BA-4B3A-A993-2D1E5E9D3D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A6740F-B2BA-4B3A-A993-2D1E5E9D3D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3A3E53-A1DD-4A18-8291-37A5793D38DC}.Debug|Any CPU.ActiveCfg = Debug
+		{DE3A3E53-A1DD-4A18-8291-37A5793D38DC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
